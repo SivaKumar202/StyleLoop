@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+
+# Compiled output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# Frontend dependencies (if you have them in frontend folder)
+Frontend/node_modules/
+Frontend/dist/
+Frontend/build/
+
+# Optional: ignore local database files
+*.sqlite
+*.db
+
+# Coverage reports
+coverage/
+
+# Optional: ignore uploads or user-generated content (if any)
+uploads/
